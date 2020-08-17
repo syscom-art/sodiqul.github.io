@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale= 1.0">
+        <title>yukTRAVELLING! | Jelajah Indonesia</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- sidebar -->
+        <input type="checkbox" id="check">
+        <div class="sidebar">
+            <ul>
+                <li></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#Discover" onclick="return smoothTransisi('Discover')">DISCOVER</a></li>
+                <li><a href="#Gallery"  onclick="return smoothTransisi('Gallery')">GALLERY</a></li>
+                <li><a href="#TESTIMONIAL" onclick="return smoothTransisi('TESTIMONIAL')">TESTIMONIAL</a></li>
+                <li><a href="#CONTACT"  onclick="return smoothTransisi('CONTACT')">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+        <header>
+            <div class="container">
+                <h1>yukTRAVELLING<span>.</span></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#Discover" onclick="return smoothTransisi('Discover')">DISCOVER</a></li>
+                        <li><a href="#Gallery"  onclick="return smoothTransisi('Gallery')">GALLERY</a></li>
+                        <li><a href="#TESTIMONIAL" onclick="return smoothTransisi('TESTIMONIAL')">TESTIMONIAL</a></li>
+                        <li><a href="#CONTACT"  onclick="return smoothTransisi('CONTACT')">CONTACT US</a></li>
+                    </ul>
+                    <!-- menu for mobile -->
+                    <label for="check" class="menuMobile"><i class="fas fa-bars fa-2x"></i></label>
+                </nav>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="container">
+                <div class="quotes">
+                    <p>Traveling, it leaves you speechless,</p>
+                    <p> then turns you into a storyteller<span>.</span></p>
+                    <p2><span>- Ibn Battuta</span></p2>
+                </div>
+                <div class="top-contact">
+                    <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a><br><br>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a><br><br>
+                    <a href="#"><a href="#"><i class="fab fa-twitter fa-2x"></i></a><br><br>
+                    <a href="#"><i class="fab fa-youtube fa-2x"></i></a><br><br>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <div class="container">
+                <div class="discover" id="Discover">
+                    <h1>Discover yukTRAVELLING<span>.</span></h1>
+                    <p>Berjelajah keliling Indonesia , bersama yukTRAVELLING , rasakan keseruan berpetualang ke tempat - tempat menarik yang ada di Indonesia. Travelling gak perlu ribet , karena sudah dipandu bersama tim handal dari yukTravelling . Ayok segera booking tiket nya , dan pilih destinasi yang mau anda tuju. </p>
+                </div>
+                <!-- gambar slide-show -->
+                <div class="slideshow">
+                    <img src="image/Bromo.jpg" alt="Gunung Bromo">
+                    <div class="captionImg">Gunung Bromo - Malang</div>
+                </div>
+
+                <div class="slideshow">
+                    <img src="image/kawahijen.jpg" alt="Kawah Ijen">
+                    <div class="captionImg">Kawah Ijen - Banyuwangi</div>
+                </div>
+
+                <div class="slideshow">
+                    <img src="image/losari.jpg" alt="Pantai Losari">
+                    <div class="captionImg">Pantai Losari - Makassar</div>
+                </div>
+
+                <div class="slideshow">
+                    <img src="image/rajaampat.jpg" alt="Raja Ampat">
+                    <div class="captionImg">Raja Ampat - Papua</div>
+                </div>
+
+                <div class="slideshow">
+                    <img src="image/pulau seribu.jpg" alt="Pulau Seribu">
+                    <div class="captionImg">Pulau Seribu - Jakarta</div>
+                </div><br><hr color="orange">
+                <!-- Gallery Gambar -->
+                <div class="galeri">
+                    <h1>Gallery yukTRAVELLING<span>.</span></h1>
+                    <p>Berikut foto-foto destinasi , rekomendasi untuk mu , ayo segera pilih dan tetapkan tujuan mu ! </p>
+                </div>
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/bromo1.jpg" alt="Bromo">
+                        <div class="desc">Gunung Bromo</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/Rinjani1.jpg" alt="Rinjani">
+                        <div class="desc">Gunung Rinjani</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/Kawah putih1.jpg" alt="Kawah Putih">
+                        <div class="desc">Kawah Putih</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/nusa dua bali1.jpg" alt="Pantai Nusa Dua">
+                        <div class="desc">Pantai Nusa Dua</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/rajaampat1.jpg" alt="rajaampat1">
+                        <div class="desc">Raja Ampat</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/pulau seribu1.jpg" alt="Pulau Seribu">
+                        <div class="desc">Pulau Seribu</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/losari1.jpg" alt="Pantai Losari">
+                        <div class="desc">Pantai Losari</div>
+                    </div>
+                </div>
+
+                <div class="gallery" id="Gallery">
+                    <div class="pictures">
+                        <img src="image/kawahijen1.jpg" alt="Kawah Ijen">
+                        <div class="desc">Kawah Ijen</div>
+                    </div>
+                </div>
+                <div class="clearfix"></div><br><br><hr color="orange">
+
+                <div class="testimoni" id="TESTIMONIAL">
+                    <h1>TESTIMONIAL <br>
+                    <span class="efek"></span>
+                    </h1>
+                    <div class="row">
+                        <div class="col">
+                            <div class="testimonial">
+                                <img src="image/cr.jpg" alt="Ronaldo">
+                                <div class="name">C. Ronaldo</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>yukTravelling itu keren. Liburan terasa menjadi seru.</p> 
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="testimonial">
+                                <img src="image/messi.jpg" alt="Messi">
+                                <div class="name">Lionel Messi</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>Untung ada yukTravelling bikin saya tidak perlu ribet jika ingin liburan.</p> 
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="testimonial">
+                                <img src="image/neymar.jpg" alt="Neymar">
+                                <div class="name">Neymar.Jr</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>Jika ingin travelling.Saya merekomendasikan yukTravelling.</p> 
+                            </div>
+                        </div>
+                    </div><br><hr color="orange">
+                </div>
+                <div class="contact" id="CONTACT">
+                    <h2>Contact Now</h2>
+                    <h1>Sodiqulaminmukasyaf@Gmail.com</h1>
+                    <div class="bottom-contact">
+                        <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer><div class="container">
+			<div class="foot">
+				<table align="justify">
+					<tr>
+						<th width="400px" height="50px" align="center">Tentang yukTravelling<span>.</span></th>
+						<th width="400px" align="center">Bantuan</th>
+						<th width="400px" align="center">Metode Pembayaran</th>
+					</tr>
+					<tr>
+						<td><a href="#">Tentang Kami</a></td>
+						<td><a href="#">G03 Poin</a></td>
+						<td rowspan="2" width="200px">Kami menerima pembayaran melalui ATM, Transfer Bank, Perbankan Online, dan Kartu Kredit </td>
+					</tr>
+					<tr>
+						<td><a href="#">Karir</a></td>
+						<td><a href="#">FAQ</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Contact Us</a></td>
+						<td><a href="#">Syarat & Ketentuan</a></td>
+						<td rowspan="2">
+							<img class="bank" src="image/bca.png" width="50">
+							<img class="bank" src="image/mandiri.png" width="70">
+							<img class="bank" src="image/bri.png" width="70">
+							<img class="bank" src="image/bni.png" width="45">
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#">Mitra Hotel</a></td>
+						<td><a href="#">Kebijakan Privasi</a></td>
+					</tr>
+				</table>
+			</div>
+		</div></footer>
+    <script src=scripts.js></script>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+/* untuk tablet */
+@media (max-width: 1000px) {
+        /* for gallery */
+        .gallery {
+            float: left;
+            width: 32%;
+            padding: 5px;
+            margin: 0 auto;
+        }
+    
+        .galeri h1 {
+            font-size: 20px;
+        }
+        
+        .galeri p {
+            font-size: 13px;
+        }
+
+    /* for testimonial */
+    .testimonial {
+        padding: 5px;
+    }
+
+    .testimonial img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50% ;
+        border: solid 2px orange;
+    }
+
+    .testimonial p {
+        text-align: left;
+    }
+
+}
+
+
+/* untuk handphone */
+@media (max-width: 768px) {
+    /* for menu header */
+    header li {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+
+    /* for icon button sidebar */
+    .menuMobile {
+        display: block;
+    }
+
+    .menuMobile:hover {
+        cursor: pointer;
+        color: orange;
+        transition: 0.5s;
+    }
+
+    .sidebar {
+        display: block;
+    }
+
+    /* for banner  */
+    .quotes {
+        font-size: 24px;
+        margin-top: 120px;
+    }
+
+    .top-contact {
+        display: none;
+    }
+
+
+    /* for discover */
+    .discover h1 {
+        font-size: 20px;
+    }
+    
+    .discover p {
+        text-align : justify;
+        font-size: 13px;
+    }
+
+    .slideshow img {
+        height: 160px;
+    }
+
+    .captionImg { 
+        font-size: 17px;
+    }
+
+    /* for gallery */
+    .gallery {
+        float: left;
+        width: 47.5%;
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+    .galeri h1 {
+        font-size: 20px;
+    }
+    
+    .galeri p {
+        font-size: 13px;
+    }
+
+    /* for testimonial */
+    .testimonial {
+        padding: 5px;
+    }
+
+    .testimonial img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50% ;
+        border: solid 2px orange;
+    }
+
+    .testimonial p {
+        text-align: left;
+    }
+
+    /* for contact */
+    .contact h1 {
+        font-size: 22px;
+    }
+
+    .contact h2 {
+        font-size: 18px;
+    }
+
+    .bottom-contact {
+        font-size: 16px;
+    }
+
+    /* for footer */
+    .footer {
+        text-align: center;
+    }
+
+    .foot {
+        height: 200px;
+    }
+
+    table img {
+        display:none;
+    }
+
+}
